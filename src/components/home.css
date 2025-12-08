@@ -1,0 +1,95 @@
+/* ---------- PAGE BACKGROUND ---------- */
+body {
+  background: linear-gradient(135deg, #ffe6f3, #fff7fb, #ffeaea);
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding-top: 90px;
+  overflow-x: hidden;
+}
+
+.homecontainer{
+    background-color: rgba(212, 209, 31, 0.2);
+    height: 60vh;
+}
+
+/* ---------- MAIN HEADING ---------- */
+h1 {
+  font-size: 3rem;
+  color: #c2187a;
+  margin-bottom: 10px;
+  animation: fadeIn 1.6s ease-out;
+  font-weight: 700;
+}
+
+/* ---------- SUBTITLE ---------- */
+p {
+  font-size: 1.3rem;
+  color: #aa0066;
+  opacity: 0.9;
+  font-style: italic;
+  animation: fadeIn 2s ease-out;
+}
+
+
+/* ---------- BUTTON ---------- */
+button {
+  margin-top: 25px;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 35px;
+  background: linear-gradient(135deg, #ff5ab9, #ff85cf);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(255, 105, 180, 0.45);
+}
+
+
+/* ---------- FLOATING FLOWERS ---------- */
+
+.flower {
+  position:absolute; /* will make position relative to viewport because no other element exists that has non-static position property*/
+  font-size: 2.2rem;
+  opacity: 0.85;
+  animation: float 6s infinite ease-in-out;
+  user-select: none;
+}
+
+/* Positions */
+.flower1 { top: 200px; left: 20px; animation-delay: 0s; }
+.flower2 { top: 200px; right: 25px; animation-delay: 1.5s; }
+.flower3 { bottom: 200px; left: 50%; transform: translateX(-50%); animation-delay: 3s; }
+
+
+/* ---------- ANIMATIONS ---------- */
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0% { transform: translateY(50px) rotate(0deg); }
+  50% { transform: translateY(-50px) rotate(150deg); }
+  100% { transform: translateY(50px) rotate(0deg); }
+}
+
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.2rem; }
+  p { font-size: 1.1rem; }
+  button { font-size: 1rem; padding: 12px 28px; }
+
+  .flower { font-size: 1.8rem; }
+}
