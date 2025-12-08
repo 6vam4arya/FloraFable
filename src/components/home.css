@@ -10,12 +10,12 @@ body {
 
 .homecontainer{
     background-color: rgba(212, 209, 31, 0.2);
-    height: 60vh;
+    height: 50vh;
 }
 
 /* ---------- MAIN HEADING ---------- */
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #c2187a;
   margin-bottom: 10px;
   animation: fadeIn 1.6s ease-out;
@@ -24,7 +24,7 @@ h1 {
 
 /* ---------- SUBTITLE ---------- */
 p {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: #aa0066;
   opacity: 0.9;
   font-style: italic;
@@ -58,7 +58,7 @@ button:hover {
 
 .flower {
   position:absolute; /* will make position relative to viewport because no other element exists that has non-static position property*/
-  font-size: 2.2rem;
+  font-size: 4rem;
   opacity: 0.85;
   animation: float 6s infinite ease-in-out;
   user-select: none;
@@ -79,7 +79,7 @@ button:hover {
 
 @keyframes float {
   0% { transform: translateY(50px) rotate(0deg); }
-  50% { transform: translateY(-50px) rotate(150deg); }
+  50% { transform: translateY(-100px) rotate(190deg); }
   100% { transform: translateY(50px) rotate(0deg); }
 }
 
