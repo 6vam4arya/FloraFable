@@ -26,10 +26,11 @@ FloraFable is a React.js application featuring multiple pages for a smooth user 
 
 ## Features
 
-- 🌸 Multi-page React app with routing.  
+- 🌸 Multi-page React app with smooth routing.  
 - 🌸 Gradient backgrounds and floral color theme.  
 - 🌸 Strong User Authentication Logic.
 - 🌸 Responsive design for desktop and mobile.    
+- 🌸 Auto-played cum user driven carousel for viewing products
 
 ---
 
@@ -79,7 +80,7 @@ User details are stored using the **`localStorage`** object from the Web Storage
 ![Gallery Page](public/Gallery.png)
 ![Gallery Page](public/Gallery_2.png)
 ![Gallery Page](public/Gallery_3.png)
-![Gallery Page](public/Gallery_4.png)
+![Gallery Page](public/Galley_4.png)
 ![About Page](public/About.png)
 
 
