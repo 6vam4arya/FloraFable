@@ -146,6 +146,13 @@ footer img:hover {
   box-shadow: 0 6px 25px rgba(0,0,0,0.3);
 }
 
+.name{
+  color: #c2187a;
+  margin-bottom: 10px;
+  animation: fadeIn 1.6s ease-out;
+  font-weight: 700;
+}
+
 /* Social links */
 .footer-social {
   margin-top: 20px;

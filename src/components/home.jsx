@@ -20,8 +20,8 @@ const home = () => {
             </div>
 
             <footer>
-                <h3>Crafted By:</h3>
-                <h4>Vamika Arya</h4>
+                <h3>Crafted with 💖 and 🌸 by:</h3>
+                <h4 className='name'><i>Vamika Arya</i></h4>
                 <img src="/Vamika_Arya_pic_1.jpg" alt="Vamika Arya Picture" />
                 <p>
                     Bringing vibrance and joy to your screens with every click.
