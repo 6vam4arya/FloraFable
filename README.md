@@ -78,6 +78,8 @@ User details are stored using the **`localStorage`** object from the Web Storage
 ![Home Page](public/Home_Page_SS.png)
 ![Gallery Page](public/Gallery.png)
 ![Gallery Page](public/Gallery_2.png)
+![Gallery Page](public/Gallery_3.png)
+![Gallery Page](public/Gallery_4.png)
 ![About Page](public/About.png)
 
 
