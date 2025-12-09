@@ -29,7 +29,7 @@ const home = () => {
 
                 <div className="footer-social">
                     <a href="https://www.linkedin.com/in/vamika-arya-4a0179288/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin size={30} color="#fff" />
+                        <FaLinkedin className='icon' size={30} color="#fff" />
                     </a>
                 </div>
 

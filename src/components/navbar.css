@@ -17,7 +17,7 @@
 .navbar {
   position: absolute;
   top :0px;
-  width : 100vw;
+  width : 99vw;
   background: linear-gradient(90deg, #ffb7d5, #ffd6e8, #fff4c2);
   border-bottom: 3px solid #ff9acb;
   box-shadow: 0px 4px 100px rgba(255, 150, 180, 0.5);
@@ -83,7 +83,7 @@
 }
 
 
-/* ---------- SPARKLES & FLOATING FLOWERS ---------- */
+/* ---------- FLOATING FLOWERS ---------- */
 
 /* Floating flower emojis */
 .navbar::before,
@@ -94,32 +94,6 @@
   opacity: 0.7;
 }
 
-.navbar::before {
-  left: 10px;
-  top: 10px;
-}
-
-.navbar::after {
-  right: 10px;
-  top: 12px;
-  animation-delay: 2.5s;
-}
-
-/* Sparkle particles */
-.navbar .sparkle {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  background: radial-gradient(circle, white, pink);
-  border-radius: 50%;
-  animation: sparkle 2s infinite ease-in-out;
-  pointer-events: none;
-}
-
-.navbar .sparkle:nth-child(1) { left: 30%; top: 5px; animation-delay: 0s; }
-.navbar .sparkle:nth-child(2) { left: 50%; top: 15px; animation-delay: 0.5s; }
-.navbar .sparkle:nth-child(3) { left: 70%; top: 8px; animation-delay: 1s; }
-.navbar .sparkle:nth-child(4) { left: 40%; top: 12px; animation-delay: 1.5s; }
 
 .logout{
   position: relative;

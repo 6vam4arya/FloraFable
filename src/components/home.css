@@ -66,8 +66,8 @@ button:hover {
 
 /* Positions */
 .flower1 { top: 200px; left: 20px; animation-delay: 0s; }
-.flower2 { top: 200px; right: 25px; animation-delay: 1.5s; }
-.flower3 { bottom: 300px; left: 50%; transform: translateX(-50%); animation-delay: 3s; }
+.flower2 { top: 200px; right: 25px; animation-delay: 0s; }
+.flower3 { bottom: 300px; left: 50%; transform: translateX(-50%); animation-delay: 0s; }
 
 
 /* ---------- ANIMATIONS ---------- */
@@ -137,13 +137,13 @@ footer img {
   object-fit: cover;
   border-radius: 20%;
   border: 3px solid #fff;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  box-shadow: -67px 67px 58px rgb(211, 142, 210);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 footer img:hover {
   transform: scale(1.05) rotate(3deg);
-  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 25px rgba(242, 78, 226, 0.3);
 }
 
 .name{
@@ -165,9 +165,10 @@ footer img:hover {
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.footer-social a:hover {
+.icon:hover {
   color: #ffe066;
   transform: scale(1.2);
+  transition: transform 0.4s ease-in-out ;
 }
 
 /* Footer bottom */
