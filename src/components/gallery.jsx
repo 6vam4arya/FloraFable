@@ -8,7 +8,8 @@ const gallery = () => {
   const navigate = useNavigate();
   useEffect(() => {
     if (!localStorage.getItem('name')) {
-      navigate('/LogIn')
+      alert("LogIn is required for viewing Gallery!")
+      navigate('/LogIn')      
       return;
     }
   })
@@ -53,16 +54,16 @@ const gallery = () => {
             <img src='https://cdn.sanity.io/images/kie4hq77/development/de10c3b7a8ce2ac9f69a4979ac5e5751f37561ae-1000x1142.png?auto=format&q=75&w=800' alt='Candle 4' height='325px' width='300px' />
           </Carousel.Item>
           <Carousel.Item>
-            <img src='https://pariscornerindia.com/cdn/shop/files/IMG-20200616-WA0101-1_1800x1800_67e69655-6c73-433f-8f05-7e1f0afa3756.jpg?v=1707891463' alt='Perfume 1' height='300px' width='300px' />
+            <img src='https://cdn.prod.website-files.com/614a379840dbad1848e598c2/679906d29abceb2bbceb06b3_6799062816366d61273c52b4_IMG_1560.jpeg' alt='Cake 1' height='300px' width='300px' />
           </Carousel.Item>
           <Carousel.Item>
-            <img src='https://www.frenchessence.com/cdn/shop/files/30ML-CHARM-2.jpg?v=1758783530' alt='Perfume 2' height='300px' width='300px' />
+            <img src='https://www.deliciaecakes.com/static/77fa19ff2f4d1f5473ceedb07e5cfb7e/0f3a1/whatsapp-image-2021-11-15-at-11.27.42-am.jpg' alt='Cake 2' height='300px' width='300px' />
           </Carousel.Item>
           <Carousel.Item>
-            <img src='https://m.media-amazon.com/images/I/71oKYkbMSBL._AC_UF1000,1000_QL80_.jpg' alt='Perfume 3' height='300px' width='300px' />
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ1Bz5CD9VEHj_K2J76S3FoEXYcnlGdcMAqQ&s' alt='Cake 3' height='300px' width='300px' />
           </Carousel.Item>
           <Carousel.Item>
-            <img src='https://www.lancome.in/dw/image/v2/BJSQ_PRD/on/demandware.static/-/Sites-lancome-in-ng-Library/en_IN/dw94566d7b/images/beauty-magazine/perfume-guides/Lanc%C3%B4mes-Luxury-Perfumes-for-Women.jpg?sw=500&sh=500&sm=cut&q=70' alt='Perfume 4' height='300px' width='300px' />
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyA3ipZ8rucv-ZCB81b6LvQ2CzCvw_qWOKAw&s' alt='Cake 4' height='300px' width='300px' />
           </Carousel.Item>
         </Carousel>
       </div>

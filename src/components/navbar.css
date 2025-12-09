@@ -120,3 +120,50 @@
 .navbar .sparkle:nth-child(2) { left: 50%; top: 15px; animation-delay: 0.5s; }
 .navbar .sparkle:nth-child(3) { left: 70%; top: 8px; animation-delay: 1s; }
 .navbar .sparkle:nth-child(4) { left: 40%; top: 12px; animation-delay: 1.5s; }
+
+.logout{
+  position: relative;
+  left:300px;
+}
+
+/* Welcome button/link styling */
+.welcomebtn {
+  font-weight: 600;
+  font-size: 25px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #ffc107, #e83e8c, #6f42c1); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.5s ease, transform 0.3s ease;
+  position: relative;
+  left:150px;
+}
+
+.welcomebtn:hover {
+  background: rgb(113, 70, 117);
+  background: linear-gradient(45deg, #ffc107, #e83e8c, #6f42c1); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.05);
+  cursor: default;
+}
+
+/* Logout button styling */
+.logout {
+  margin-left: 15px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  color: #fff;
+  background: linear-gradient(45deg, #ffca28, #e83e8c, #6f42c1); /* yellow-pink-purple gradient */
+  background-size: 300% 300%;
+  transition: all 0.4s ease, transform 0.3s ease;
+}
+
+.logout:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  border: none;
+}

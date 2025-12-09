@@ -19,11 +19,25 @@ const home = () => {
             </div>
 
             <footer>
-                <h3>Crafted By : -</h3>
+                <h3>Crafted By:</h3>
                 <h4>Vamika Arya</h4>
-                <img src='' alt='Vamika Arya Picture'/>
+                <img src="your-image-link.jpg" alt="Vamika Arya Picture" />
+                <p>
+                    Bringing vibrance and joy to your screens with every click.
+                </p>
 
+                <div className="footer-social">
+                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                    <a href="#"><i className="fab fa-instagram"></i></a>
+                    <a href="#"><i className="fab fa-twitter"></i></a>
+                    <a href="#"><i className="fab fa-pinterest"></i></a>
+                </div>
+
+                <div className="footer-bottom">
+                    &copy; 2025 Vamika Arya. All Rights Reserved.
+                </div>
             </footer>
+
         </>
     )
 }
