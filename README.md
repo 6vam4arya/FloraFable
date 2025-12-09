@@ -8,9 +8,7 @@
 - [Project Description](#project-description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
+- [User Authentication Logic](#user-authentication-logic)
 - [License](#license)
 
 ---
