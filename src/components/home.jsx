@@ -17,6 +17,13 @@ const home = () => {
                 <div className="flower flower2">🌼</div>
                 <div className="flower flower3">🌺</div>
             </div>
+
+            <footer>
+                <h3>Crafted By : -</h3>
+                <h4>Vamika Arya</h4>
+                <img src='' alt='Vamika Arya Picture'/>
+
+            </footer>
         </>
     )
 }

@@ -30,9 +30,9 @@ const signup = () => {
     // store user's data and direct to login Page
     console.log(formData);
     Navigate('/LogIn');
-    // localStorage.setItem('name',name);
-    // localStorage.setItem('email',email);
-    // localStorage.password('password',password);
+    localStorage.setItem('name',formData.fullname);
+    localStorage.setItem('email',formData.email);
+    localStorage.setItem('password',formData.confirmPassword);
   }
 
   return (

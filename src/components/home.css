@@ -15,7 +15,7 @@ body {
 
 /* ---------- MAIN HEADING ---------- */
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #c2187a;
   margin-bottom: 10px;
   animation: fadeIn 1.6s ease-out;
@@ -58,7 +58,7 @@ button:hover {
 
 .flower {
   position:absolute; /* will make position relative to viewport because no other element exists that has non-static position property*/
-  font-size: 4rem;
+  font-size: 2rem;
   opacity: 0.85;
   animation: float 6s infinite ease-in-out;
   user-select: none;
@@ -67,7 +67,7 @@ button:hover {
 /* Positions */
 .flower1 { top: 200px; left: 20px; animation-delay: 0s; }
 .flower2 { top: 200px; right: 25px; animation-delay: 1.5s; }
-.flower3 { bottom: 200px; left: 50%; transform: translateX(-50%); animation-delay: 3s; }
+.flower3 { bottom: 150px; left: 50%; transform: translateX(-50%); animation-delay: 3s; }
 
 
 /* ---------- ANIMATIONS ---------- */
@@ -92,4 +92,9 @@ button:hover {
   button { font-size: 1rem; padding: 12px 28px; }
 
   .flower { font-size: 1.8rem; }
+}
+
+footer{
+  position:relative;
+  top:100px;
 }
