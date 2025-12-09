@@ -67,7 +67,7 @@ button:hover {
 /* Positions */
 .flower1 { top: 200px; left: 20px; animation-delay: 0s; }
 .flower2 { top: 200px; right: 25px; animation-delay: 1.5s; }
-.flower3 { bottom: 150px; left: 50%; transform: translateX(-50%); animation-delay: 3s; }
+.flower3 { bottom: 300px; left: 50%; transform: translateX(-50%); animation-delay: 3s; }
 
 
 /* ---------- ANIMATIONS ---------- */
@@ -102,6 +102,7 @@ footer {
   padding: 60px 20px 40px 20px;
   font-family: 'Poppins', sans-serif;
   position: relative;
+  height:90vh;
 }
 
 footer h3 {
@@ -128,10 +129,13 @@ footer p {
 }
 
 footer img {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200x;
+  position : absolute;
+  top:10px;
+  right:20px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 3px solid #fff;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { FaLinkedin } from "react-icons/fa";
 import './home.css'
 
 const home = () => {
@@ -21,17 +22,17 @@ const home = () => {
             <footer>
                 <h3>Crafted By:</h3>
                 <h4>Vamika Arya</h4>
-                <img src="your-image-link.jpg" alt="Vamika Arya Picture" />
+                <img src="/Vamika_Arya_pic_1.jpg" alt="Vamika Arya Picture" />
                 <p>
                     Bringing vibrance and joy to your screens with every click.
                 </p>
 
                 <div className="footer-social">
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-pinterest"></i></a>
+                    <a href="https://www.linkedin.com/in/vamika-arya-4a0179288/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={30} color="#fff" />
+                    </a>
                 </div>
+
 
                 <div className="footer-bottom">
                     &copy; 2025 Vamika Arya. All Rights Reserved.
